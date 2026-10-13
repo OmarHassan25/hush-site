@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hush privacy policy</title>
+<style>
+  :root { --paper:#F3F4F6; --surface:#FFFFFF; --ink:#0B1220; --muted:#5B6472; --sage:#0F766E; }
+  @media (prefers-color-scheme: dark) { :root { --paper:#080C14; --surface:#131A26; --ink:#F1F3F6; --muted:#9AA4B2; --sage:#5EEAD4; } }
+  body { background:var(--paper); color:var(--ink); font:17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; margin:0; padding:40px 16px; }
+  main { max-width:680px; margin:0 auto; background:var(--surface); border-radius:28px; padding:32px 28px; }
+  h1 { font-weight:800; letter-spacing:-0.02em; margin:0 0 4px; }
+  h2 { font-size:1rem; color:var(--sage); margin:2em 0 0.5em; text-transform:uppercase; letter-spacing:0.06em; }
+  p, li { margin:0.5em 0; } small { color:var(--muted); } a { color:var(--sage); }
+  ul { padding-left:1.2em; }
+</style>
+</head>
+<body>
+<main>
+<h1>Hush privacy policy</h1>
+<p><small>Last updated 13 October 2026 · applies to Hush for Android (package <code>com.goapps.hush</code>)</small></p>
+
+<h2>The short version</h2>
+<p>Hush reads your notifications to sort them, and everything stays on your phone. Hush has no internet permission, so it cannot send your notifications, or anything else, anywhere. There are no accounts, no servers, no ads and no analytics.</p>
+
+<h2>What Hush reads</h2>
+<p>Hush works through Android's notification access, which you grant in system settings. For each notification it reads the app that posted it, the title, the text, the sender and conversation name when it is a chat, the category Android gives it, and the time it arrived.</p>
+
+<h2>What Hush does with it</h2>
+<ul>
+  <li>Builds the noise report, the suggestions and the history you see in the app.</li>
+  <li>Applies your presets and rules: dismiss, hold for the digest, cool down, vibrate, remind, read aloud, or reply.</li>
+  <li>Keeps notifications in a database on the phone: the last 24 hours are shown in the free version, 30 days with Hush Pro. Older rows are deleted automatically (after 14 days in the free version). When a sender deletes a chat message, the original Hush already saw stays in that history the same way.</li>
+  <li>Learns which notifications you open and which you swipe away, on the phone only, to suggest rules.</li>
+</ul>
+
+<h2>What Hush never does</h2>
+<ul>
+  <li>No internet access. The app does not request the INTERNET permission, so no data can leave the phone through Hush.</li>
+  <li>No ads, analytics, crash reporting or trackers of any kind.</li>
+  <li>No location, contacts, SMS, microphone or camera permissions.</li>
+  <li>No accessibility service.</li>
+</ul>
+
+<h2>Permissions, and why</h2>
+<ul>
+  <li><strong>Notification access:</strong> to read and act on notifications. Turning it off stops all reading immediately.</li>
+  <li><strong>Post notifications:</strong> to show your digest and reminders.</li>
+  <li><strong>Do Not Disturb access:</strong> for quiet windows.</li>
+  <li><strong>Calendar (Hush Pro, optional):</strong> to turn on quiet time during events marked busy. Your calendar is read on the phone only and never stored.</li>
+  <li><strong>Exact alarms (optional):</strong> for digests delivered at the minute you chose; without it they arrive within a few minutes.</li>
+  <li><strong>Run at startup and vibrate:</strong> to resume after a reboot and to play custom vibrations.</li>
+</ul>
+
+<h2>Replies, reading aloud and automation</h2>
+<p>An auto-reply rule sends the text you wrote through the messaging app's own reply action; Hush does not read your contacts. Reading aloud uses Android's text-to-speech on the phone. With Hush Pro you can allow other apps on the phone, such as Tasker, to pause Hush or switch presets; this is off unless you turn it on.</p>
+
+<h2>Backup</h2>
+<p>If Android backup is on for your phone, one small file is included: your rules, quiet windows, presets and VIP names. The notification database is never backed up and never leaves the phone. Hush Pro can also export that same rules file to a location you choose.</p>
+
+<h2>Purchases</h2>
+<p>Hush Pro and Hush Supporter are one-time purchases made through Google Play or Huawei AppGallery. The store handles payment under its own privacy policy; Hush only learns whether the purchase is owned.</p>
+
+<h2>Support</h2>
+<p>If you contact support from the app, you choose whether to attach a diagnostics file. It contains your phone model, Android version, which permissions are on and listener timing. It contains no notification content.</p>
+
+<h2>Deleting your data</h2>
+<p>Uninstall Hush, or clear its storage in Android settings. Both remove the notification database and your settings. Turning off notification access stops all reading immediately.</p>
+
+<h2>Children</h2>
+<p>Hush is not directed at children under 13 and collects no personal information from anyone.</p>
+
+<h2>Changes and contact</h2>
+<p>If this policy changes, the new version is published at this address with a new date. Questions: <a href="mailto:eng.omar.hassan@gmail.com">eng.omar.hassan@gmail.com</a>.</p>
+</main>
+</body>
+</html>
